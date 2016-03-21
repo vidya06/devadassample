@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: devadassample
+  host: devadassample
+  disk_quota: 1024M
+  services:
+  - devadassample-cloudantNoSQLDB
